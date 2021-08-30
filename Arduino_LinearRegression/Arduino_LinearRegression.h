@@ -1,7 +1,7 @@
 #ifndef Arduino_LinearRegression_h
 #define Arduino_LinearRegression_h
 
-//#include "Arduino.h"
+#include "Arduino.h"
 
 class ML
 {
