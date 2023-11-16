@@ -23,7 +23,7 @@ void ML::calculate()
     }
 
     X = (size * sumXY - sumX * sumY) / (size * sumX2 - sumX * sumX);
-    Y = (sumY - b * sumX) / size;
+    Y = (sumY - X * sumX) / size;
     
     
 
